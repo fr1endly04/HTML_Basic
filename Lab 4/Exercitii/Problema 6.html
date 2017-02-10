@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Construirea CV-ului personal</title>
+</head>
+<body>
+<form method="POST" action="rezervari.asp" >
+<h3><u>Introduceti informatia despre dvs</u></h3>
+<p><u>Informatii Generale</u></p>
+<table border="0">
+<tr>
+	<td><label for="name"><b>Nume:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="name" type="text" size="35" maxlength="256" name="Nume" placeholder="Introduceti numele"></td>
+</tr>
+<tr>
+	<td><label for="prenume"><b>Prenume:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="prenume" type="text" size="35" maxlength="256" name="prenume" placeholder="Introduceti prenumele"></td>
+</tr>
+<tr>
+	<td><label for="email"><b>Email:</b></label></td>
+</tr>
+<tr>
+<td><b>Selectati specializarea</b></td>
+<td><select size="1" name="specializare">
+<option>Fizica</option>
+<option>Tehnologii Informationale</option>
+<option>Calculatoare</option>
+<option>Meteorologie</option>
+<option>IMC</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><b>Selectati cursurile DVS</b></td>
+<td><select size="1" name="cursuri" multiple>
+<option>Proiectare SO</option>
+<option>Web Design</option>
+<option>SO p-u retea</option>
+<option>Prolog</option>
+<option>UML</option>
+<option>Programarea Driverelor</option>
+<option>Baze de Date</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><b>Selectati activitatea</b></td>
+<td><select size="1" name="cursuri" multiple>
+<option>Studiu Curs</option>
+<option>Lucrare Laborator</option>
+<option>Test Grila</option>
+</select>
+</td>
+</tr>
+<tr>	
+	<td>Selectati anul de studii:</td><td>I<input id="year1" type="radio" name="year" value="year1">
+	II<input id="year2" type="radio" name="year" value="year2">
+	III<input id="year3" type="radio" name="year" value="year3">
+	IV<input id="year4" type="radio" name="year" value="year4"></td>
+</tr>
+<tr>	
+	<td>Tipul activitatii:</td>
+	<td>Activitate interactiva<input id="activity1" type="checkbox" name="activity" value="year1"><br />
+	Activitate de studiu individual<input id="activity2" type="checkbox" name="activity" value="year2"><br />
+	Activitate de lucru in colaborare cu alti studenti<input id="activity3" type="checkbox" name="activity" value="year3"></td>
+</tr>
+</table>
+<p><input type="submit" value="Lansare activitate">
+<input type="submit" value="Afisare stare student">
+<input type="reset" value="Cancel"></p>
+
+</form>
+</body>
+</html>

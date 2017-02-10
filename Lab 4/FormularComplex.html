@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Rezervare camere hotel</title>
+</head>
+<body>
+<form method="POST" action="rezervari.asp" >
+<h3><u>Hotel Costica - Formular de rezervare</u></h3>
+<p><u>1. Informatii Generale</u></p>
+<table border="0">
+<tr>
+<td><b>Ce fel de camere doriti ?</b></td>
+<td><select size="1" name="Camera">
+<option>Single</option>
+<option>Double</option>
+<option>Apartament</option>
+</select></font>
+</td>
+</tr>
+<tr>
+<td><b>Optiuni camera:</b></td>
+<td><input type="checkbox" name="Televizor" value="ON" checked>Televizor
+<br>
+<input type="checkbox" name="VederePlaja" value="ON" checked>Vedere catre
+plaja
+</td>
+</tr>
+<tr>
+<td><b>Ce modalitate de plata alegeti ?</b></td>
+<td><input type="radio" name="ModalitatePlata" value="Numerar"
+checked>Numerar<br>
+<input type="radio" name="ModalitatePlata" value="CarteCredit">Carte credit<br>
+<input type="radio" name="ModalitatePlata" value="TransferBancar">Transfer
+bancar
+</td>
+</tr>
+<tr>
+<td><b>Alte observatii</b></td>
+</tr>
+<tr>
+<td>
+<p align="center"><textarea name="Observatii" rows="5" cols="39">Introduceti aici
+optiunile dvs. daca nu este disponibila nici o camera conform cererii exprimate!
+</textarea></p>
+<hr align="center">
+</td>
+</tr>
+</table>
+<p><u>2. Informatii Contact</u></p>
+<table border="0">
+<tr>
+<td><b>Nume si prenume :</b></td>
+<td><input type="text" size="35" maxlength="256" name="Nume"></td>
+</tr>
+<tr>
+<td><b>Telefon :</b></td>
+<td><input type="text" size="35" name="Tel"></td>
+</tr>
+</table>
+<p><input type="submit" value="Rezerva"> <input type="reset"
+value="Anuleaza"></p>
+</form>
+</body>
+</html>

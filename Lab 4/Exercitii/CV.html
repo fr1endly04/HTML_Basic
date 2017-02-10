@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Editarea CV-ului personal</title>
+</head>
+<body>
+<form method="POST" action="rezervari.asp" >
+<h3><u>Introduceti informatia noua in CV</u></h3>
+<p><u>Informatii Generale</u></p>
+<table border="0">
+<tr>
+	<td><label for="name"><b>Nume:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="name" type="text" size="35" maxlength="256" name="Nume" placeholder="Introduceti numele"></td>
+</tr>
+<tr>
+	<td><label for="prenume"><b>Prenume:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="prenume" type="text" size="35" maxlength="256" name="prenume" placeholder="Introduceti prenumele"></td>
+</tr>
+<tr>
+	<td><label for="phone"><b>Telefon:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="phone" type="text" size="35" maxlength="256" name="phone" placeholder="Introduceti telefonul"></td>
+</tr>
+<tr>
+	<td><label for="dateofbirth"><b>Data nasterii:</b></label></td>
+</tr>
+<tr>	
+	<td><input id="dateofbirth" type="text" size="35" maxlength="256" name="birth" placeholder="Introduceti data nasterii"></td>
+</tr>
+<tr>
+<td><b>Genul</b></td>
+<td><input type="radio" name="gen" value="male">Masculin<br>
+<input type="radio" name="gen" value="female">Feminin<br></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><b>Institutia de invatamint finisata</b></td>
+<td><select size="1" name="scoala">
+<option>Scoala Medie</option>
+<option>Liceu</option>
+<option>Scoala Profesionala</option>
+<option>Colegiu</option>
+<option>Universitate</option>
+</select>
+</td>
+</tr>
+</table>
+<p><input type="submit" value="Salveaza"> <input type="reset"
+value="Anuleaza"></p>
+
+</form>
+</body>
+</html>

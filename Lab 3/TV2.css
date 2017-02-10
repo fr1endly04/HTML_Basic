@@ -1,0 +1,63 @@
+table {
+border: 1px solid Fuchsia;
+width: 80%;
+}
+td {
+border: 1px solid Fuchsia;
+width: 20%;
+}
+.margine {
+font-weight: bold;
+text-align: center;
+background-color: #E0FFFF;
+}
+.mijloc {
+text-align: center;
+background-color: #CCFFCC;
+color: #AB811F;
+}
+.mijloc1 {
+text-align: center;
+background-color: #CCFFCC;
+background-image: url(images/1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+color: #AB811F;
+}
+.mijloc2 {
+text-align: center;
+background-color: #CCFFCC;
+background-image: url(images/2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+color: #AB811F;
+}
+.mijloc3 {
+text-align: center;
+background-color: #CCFFCC;
+background-image: url(images/3.jpg);
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+color: #AB811F;
+}
+.mijloc4 {
+text-align: center;
+background-color: #CCFFCC;
+background-image: url(images/4.jpg);
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+color: #AB811F;
+}
+.mijloc5 {
+text-align: center;
+background-color: #CCFFCC;
+background-image: url(images/5.jpg);
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+color: #AB811F;
+}
